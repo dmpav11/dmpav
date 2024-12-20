@@ -86,7 +86,7 @@ import java.util.Scanner;
 
 
         private static boolean isRomanNumber(String s) {
-            return s.matches("[IVXLCDM]+");
+            return s.matches("^(I|II|III|IV|V|VI|VII|VIII|IX|X)$");
         }
 
         private static boolean isArabicNumber(String s) {
